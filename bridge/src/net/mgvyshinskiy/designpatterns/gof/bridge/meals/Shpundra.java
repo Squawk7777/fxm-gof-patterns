@@ -1,7 +1,7 @@
 package net.mgvyshinskiy.designpatterns.gof.bridge.meals;
 
 import net.mgvyshinskiy.designpatterns.gof.bridge.markers.SecondCourse;
-import net.mgvyshinskiy.designpatterns.gof.bridge.markers.Japanese;
+import net.mgvyshinskiy.designpatterns.gof.bridge.markers.Ukrainian;
 
-public class Sushi implements Meal, Japanese, SecondCourse {
+public class Shpundra implements Meal, Ukrainian, SecondCourse {
 }
