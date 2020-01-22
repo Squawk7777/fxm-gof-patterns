@@ -12,7 +12,7 @@ public class AmericanCuisine extends AbstractCuisine {
     @Override
     protected void checkCuisine(Class<? extends Meal> mealClass) {
         if (!American.class.isAssignableFrom(mealClass)) {
-            throw new IllegalArgumentException("Wrong cousine");
+            throw new IllegalArgumentException("Wrong cuisine");
         }
     }
 }
