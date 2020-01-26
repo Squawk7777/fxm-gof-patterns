@@ -1,5 +1,5 @@
 
-package net.mgvyshinskiy.designpatterns.gof.facade;
+package net.mgvyshinskiy.designpatterns.gof.facade.api;
 
 import java.net.MalformedURLException;
 import java.net.URL;

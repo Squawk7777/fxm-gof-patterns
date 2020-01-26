@@ -1,5 +1,5 @@
 
-package net.mgvyshinskiy.designpatterns.gof.facade;
+package net.mgvyshinskiy.designpatterns.gof.facade.api;
 
 import javax.xml.bind.annotation.*;
 

@@ -1,5 +1,5 @@
 
-package net.mgvyshinskiy.designpatterns.gof.facade;
+package net.mgvyshinskiy.designpatterns.gof.facade.api;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
@@ -18,7 +18,7 @@ import javax.xml.bind.annotation.XmlType;
  *   &lt;complexContent>
  *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
  *       &lt;sequence>
- *         &lt;element name="SubtractResult" type="{http://www.w3.org/2001/XMLSchema}int"/>
+ *         &lt;element name="DivideResult" type="{http://www.w3.org/2001/XMLSchema}int"/>
  *       &lt;/sequence>
  *     &lt;/restriction>
  *   &lt;/complexContent>
@@ -29,28 +29,28 @@ import javax.xml.bind.annotation.XmlType;
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "", propOrder = {
-    "subtractResult"
+    "divideResult"
 })
-@XmlRootElement(name = "SubtractResponse")
-public class SubtractResponse {
+@XmlRootElement(name = "DivideResponse")
+public class DivideResponse {
 
-    @XmlElement(name = "SubtractResult")
-    protected int subtractResult;
+    @XmlElement(name = "DivideResult")
+    protected int divideResult;
 
     /**
-     * Gets the value of the subtractResult property.
+     * Gets the value of the divideResult property.
      *
      */
-    public int getSubtractResult() {
-        return subtractResult;
+    public int getDivideResult() {
+        return divideResult;
     }
 
     /**
-     * Sets the value of the subtractResult property.
+     * Sets the value of the divideResult property.
      *
      */
-    public void setSubtractResult(int value) {
-        this.subtractResult = value;
+    public void setDivideResult(int value) {
+        this.divideResult = value;
     }
 
 }

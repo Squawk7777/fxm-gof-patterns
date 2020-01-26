@@ -1,5 +1,5 @@
 
-package net.mgvyshinskiy.designpatterns.gof.facade;
+package net.mgvyshinskiy.designpatterns.gof.facade.api;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
@@ -32,8 +32,8 @@ import javax.xml.bind.annotation.XmlType;
     "intA",
     "intB"
 })
-@XmlRootElement(name = "Add")
-public class Add {
+@XmlRootElement(name = "Subtract")
+public class Subtract {
 
     protected int intA;
     protected int intB;
