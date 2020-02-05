@@ -1,4 +1,6 @@
-package net.mgvyshinskiy.designpatterns.gof.mediator;
+package net.mgvyshinskiy.designpatterns.gof.mediator.services;
+
+import net.mgvyshinskiy.designpatterns.gof.mediator.Mediator;
 
 public abstract class Service {
     protected Mediator mediator;

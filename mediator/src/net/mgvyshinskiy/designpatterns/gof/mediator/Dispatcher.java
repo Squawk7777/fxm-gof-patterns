@@ -1,5 +1,8 @@
 package net.mgvyshinskiy.designpatterns.gof.mediator;
 
+import net.mgvyshinskiy.designpatterns.gof.mediator.services.Service;
+import net.mgvyshinskiy.designpatterns.gof.mediator.services.ServiceType;
+
 import java.util.HashMap;
 import java.util.Map;
 

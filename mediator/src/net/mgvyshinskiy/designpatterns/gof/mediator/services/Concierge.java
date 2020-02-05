@@ -1,4 +1,6 @@
-package net.mgvyshinskiy.designpatterns.gof.mediator;
+package net.mgvyshinskiy.designpatterns.gof.mediator.services;
+
+import net.mgvyshinskiy.designpatterns.gof.mediator.Mediator;
 
 public class Concierge extends Service {
     public Concierge(Mediator mediator) {

@@ -1,5 +1,7 @@
 package net.mgvyshinskiy.designpatterns.gof.mediator;
 
+import net.mgvyshinskiy.designpatterns.gof.mediator.services.*;
+
 public class MediatorApp {
     public static void main(String[] args) {
         Mediator mediator = new Dispatcher();
